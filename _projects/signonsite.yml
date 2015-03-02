@@ -1,29 +1,24 @@
+title: SignOnSite
+image:
+  url:   /images/sos_header.png
+  title: SignOnSite Screenshot
+  alt:   SignOnSite Screenshot
 description:
   SignOnSite is a digital worker management platform, designed around
   the need for accurate information about who is on a site at any given time.
   It uses a smartphone app to allow workers to sign on and off worksites,
   giving managers the tools they need to remain safe.
-technologies:
-- PHP
-- Java
-- Android
-
-endorsements:
--
-  body:
-    Working with this company was great!
-  from: Endorser Name
-  role: Project Manager
-image:
-  url: /images/sos_header.png
-  title: SignOnSite Logo
-  alt: SignOnSite Logo
-layout: project
+website:   https://signonsite.com.au/
 project_description:
   I worked as a technical lead, focusing on the Android application and the
   webapp backend. I also administered the servers and databases and liased with
   customers in the role of product manager.
+technologies:
+- PHP
+- Java
+- Android
+- MySQL
+- Laravel
+layout:    project
 published: true
 short:     Workplace Health and Safety Platform.
-title:     SignOnSite
-website:   https://signonsite.com.au/

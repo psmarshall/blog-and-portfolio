@@ -1,0 +1,22 @@
+title: Anatomy Learning Game
+image:
+  url:   /images/anatomy-logo.png
+  title: Anatomy Logo
+  alt:   Anatomy Logo
+description:
+  Learning Anatomy is a pair matching game designed to help
+  anatomy students learn and revise parts of the body. The game
+  was conceived by ANU lecturers and created by ANU students.
+website:   https://itunes.apple.com/au/app/learning-anatomy/id927809747?mt=8
+project_description:
+  I created an iOS app for iPhone and iPad alongside another student,
+  and connected it to an API that delivered new game modules and recorded
+  gameplay statistics. The game was used by students to help them revise for
+  their final exam.
+technologies:
+- Objective C
+- iOS
+- SQLite
+layout:    project
+published: true
+short:     iOS Anatomy Learning Game.

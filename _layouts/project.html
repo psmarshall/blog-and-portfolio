@@ -26,16 +26,3 @@ layout: page
     <div class="technology"> {{ technology }} </div>
   {% endfor %}
 </div>
-
-{% if page.endorsements %}
-  <div id="endorsements" class="span16">
-    <h3>What {{ page.title }} had to say about us:</h3>
-
-    {% for endorsement in page.endorsements %}
-      <blockquote>
-        {{ endorsement.body }}
-        <small>{{ endorsement.from }}, {{ endorsement.role }}</small>
-      </blockquote>
-    {% endfor %}
-  </div>
-{% endif %}
