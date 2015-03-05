@@ -42,6 +42,18 @@
             </a>
           </li>
           {% endif %}
+
+          {% if site.bitbucket_username %}
+          <li>
+            <a href="https://bitbucket.org/{{ site.bitbucket_username }}">
+              <span class="icon  icon--bitbucket">
+                <img src="/images/bitbucket_logo.png">
+              </span>
+
+              <span class="username">{{ site.bitbucket_username }}</span>
+            <a/>
+          </li>
+          {% endif %}
         </ul>
       </div>
 

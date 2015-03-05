@@ -1,0 +1,24 @@
+title: Are You Out?
+image:
+  url:   /images/are-you-out.png
+  title: Are You Out Screenshot
+  alt:   Are You Out Screenshot
+description:
+  Are You Out is a social app that tells you whether your friends are out and
+  about in your area. Using low battery GPS geofencing, it will let your friends
+  know you are out in the city (if you let it...).
+website: http://pmarshall.me
+project_description:
+  I first started working on this idea at a hackathon with three friends, working
+  on the Android app and the web server. Its currently in alpha with a small group
+  of testers.
+technologies:
+- Java
+- Android
+- Geofencing
+- PHP
+- Laravel
+- MySQL
+layout:    project
+published: true
+short:     Android Social Geolocation App

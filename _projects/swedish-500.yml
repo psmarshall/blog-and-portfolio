@@ -1,0 +1,24 @@
+title: Swedish 500
+image:
+  url:   /images/swedish-500.png
+  title: Swedish 500 Screenshot
+  alt:   Swedish 500 Screenshot
+description:
+  "This card game is a staple in some areas of rural Sweden, and you will find
+  rules similar to other well known games. This incarnation also includes a chat
+  and game lobby system, all updated instantly through websockets, and available
+  in several different languages.
+  This game isn't online yet, so keep an eye out."
+#website:
+project_description:
+  "This side project was created to keep in touch with some Swedish friends and
+  to learn some new technologies. I'm working on it solo, diving into websockets,
+  localisation and frontend design for the first time."
+technologies:
+- node.js
+- socket.io
+- jQuery
+- Bootstrap
+layout:    project
+published: true
+short:     Swedish Card Game Webapp
