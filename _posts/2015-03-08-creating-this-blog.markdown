@@ -7,6 +7,10 @@ I was looking for a way to provide both a portfolio and blog in one site without
 
 The basic Jekyll site on the default template provides a good basis for blogging, but doesn't give you the ability to generate static pages for projects to show off what you've been working on. I used the [Flatterline Jekyll Plugins][jekyll-plugin], specifically portfolio.rb to give me a portfolio index page and a separate page for each project. This gave me a blog and a portfolio out of the box, and worked great. The only issue was that every project would show up in the top navigation bar.
 
+![Navigation Bar Screenshot](/images/navbar.png)
+
+This looked untidy, and would also cause issues as more and more projects were added.
+
 I had a look inside portfolio.rb:
 
 {% highlight ruby %}
