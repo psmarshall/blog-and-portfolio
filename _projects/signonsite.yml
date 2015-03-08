@@ -11,14 +11,17 @@ description:
 website:   https://signonsite.com.au/
 project_description:
   I worked as a technical lead, focusing on the Android application and the
-  webapp backend. I also administered the servers and databases and liased with
-  customers in the role of product manager.
+  webapp backend, while also contributing to the iOS application. I also
+  administered the servers and databases and talked with customers in the
+  role of product manager.
 technologies:
 - PHP
 - Java
 - Android
 - MySQL
 - Laravel
+- iOS
+- Objective C
 layout:    project
 published: true
 short:     Workplace Health and Safety Platform.

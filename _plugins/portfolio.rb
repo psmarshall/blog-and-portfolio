@@ -72,7 +72,7 @@ module Jekyll
         project.render(site.layouts, site.site_payload)
         project.write(site.dest)
 
-        site.pages << project
+        # site.pages << project
         site.static_files << project
       end
     end
