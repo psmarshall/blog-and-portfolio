@@ -9,6 +9,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pmarshall.me" # the base hostname & protocol for your site
 github_username:    psmarshall
 bitbucket_username: peter_marshall
+stack-overflow_username: superfly
+stack-overflow_id: 1614398
 
 # Build settings
 markdown: kramdown
