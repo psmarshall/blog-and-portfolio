@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "Creating This Blog"
-date:   2015-03-08 14:29:25
+layout:   post
+title:    "Creating This Blog"
+date:     2015-03-08 14:29:25
+comments: true
 ---
 I was looking for a way to provide both a portfolio and blog in one site without creating too much from scratch and came across [Jekyll][jekyll]. Jekyll generates a static site from simple file formats like Markdown, meaning you can take advantage of a simple server setup without any databases or other added complexity.
 
