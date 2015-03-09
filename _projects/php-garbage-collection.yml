@@ -1,0 +1,25 @@
+title: High Performance PHP Garbage Collection
+image:
+  url:   /images/hhvm.png
+  title: Anatomy Screenshot
+  alt:   Anatomy Screenshot
+description: >
+  PHP accidentally became a programming language, and decisions in the language
+  semantics have restricted common implementations to reference counting garbage collection.
+  This project aims to achieve high performance garbage collection for Facebook's
+  HipHop Virtual Machine.
+website:   https://github.com/psmarshall/hhvm
+project_description: >
+  For my honours project and thesis in 2015, I'm working on HHVM to introduce high performance
+  garbage collection in the form of a tracing garbage collector, using a mark-region based
+  memory manager. Several obstacles stand in the way: PHP as a language is married to reference
+  counting, relying on exact reference counts for copy-on-write optimisations, and relying on
+  the destruction of objects happening at an exact moment when the reference count drops to zero,
+  which no longer is assured when using tracing garbage collection. 
+technologies:
+- C++
+- PHP
+- Garbage Collection
+layout:    project
+published: true
+short:     High Performance PHP Garbage Collection.
