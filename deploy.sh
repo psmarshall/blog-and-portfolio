@@ -1,2 +1,2 @@
 #! /bin/bash
-(cd _site && scp -r . sandbox:/var/www/html)
+(jekyll build && cd _site && scp -r . sandbox:/var/www/html)
