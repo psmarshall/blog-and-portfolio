@@ -1,0 +1,140 @@
+---
+---
+
+.ticks {
+    text-align: center;
+}
+
+.ticks input {
+    display: none;
+}
+.tick-sub, .tick-cross {
+    /* Grey background on the div itself */
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 8px;
+    background: #cbd1d8;
+    label {
+        /* The label defines the clickable region so make sure
+           the dimensions match up. Also set up the pointer so
+           users know its clickable. */
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        padding: 0px;
+        position: relative;
+        cursor: pointer;
+        &::before {
+            /* The tick. */
+            display: block;
+            content:'\2714';
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+            font-size: 2rem;
+        }
+        &:hover {
+            /* Respond to hovering cursor to indicate we want
+               to be clicked. */
+            background: #9faab7;
+        }
+    }
+    input:checked + label::after {
+        /* Fire out animation in the ::after pseudo-element */
+        -webkit-animation: click-wave 0.85s;
+        -moz-animation: click-wave 0.85s;
+        animation: click-wave 0.85s;
+        background: #2fb207;
+        content:'';
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 100;
+    }
+    input:checked + label {
+        /* Special background colour once we've been ticked */
+        background: #2fb207;
+    }
+    &.tick-cross {
+        /* Customise above settings for the cross */
+        input:checked + label::after {
+            background: darkorange;
+        }
+        input:checked + label {
+            background: darkorange;
+        }
+        label {
+            &::before {
+                content:'\2716';
+            }
+        }
+    }
+}
+@-webkit-keyframes click-wave {
+    0% {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        opacity: 0.5;
+    }
+    100% {
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        margin-left: -125px;
+        margin-top: -125px;
+        opacity: 0.0;
+    }
+}
+@-moz-keyframes click-wave {
+    0% {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        opacity: 0.5;
+    }
+    100% {
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        margin-left: -125px;
+        margin-top: -125px;
+        opacity: 0.0;
+    }
+}
+@-o-keyframes click-wave {
+    0% {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        opacity: 0.5;
+    }
+    100% {
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        margin-left: -125px;
+        margin-top: -125px;
+        opacity: 0.0;
+    }
+}
+@keyframes click-wave {
+    0% {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        opacity: 0.5;
+    }
+    100% {
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        margin-left: -125px;
+        margin-top: -125px;
+        opacity: 0.0;
+    }
+}
