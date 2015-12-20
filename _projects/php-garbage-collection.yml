@@ -10,9 +10,9 @@ description: >
   HipHop Virtual Machine.
 website:   https://github.com/psmarshall/hhvm
 project_description: >
-  For my honours project and thesis in 2015, I'm working on HHVM to introduce high performance
+  For my honours project and thesis in 2015, I worked on HHVM to introduce high performance
   garbage collection in the form of a tracing garbage collector, using a mark-region based
-  memory manager. Several obstacles stand in the way: PHP as a language is married to reference
+  memory manager. PHP as a language is married to reference
   counting, relying on exact reference counts for copy-on-write optimisations, and relying on
   the destruction of objects happening at an exact moment when the reference count drops to zero,
   which no longer is assured when using tracing garbage collection. 
