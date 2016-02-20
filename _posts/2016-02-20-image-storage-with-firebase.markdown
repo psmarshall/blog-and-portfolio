@@ -41,7 +41,7 @@ private void storeImageToFirebase() {
 }
 {% endhighlight %}
 
-So we've stored out picture to our backend using three lines to do it. Pretty neat. What about if we want to pull it out again and display it back to the user when they open the app?
+So we've stored our picture to our backend using three lines to do it. Pretty neat. What about if we want to pull it out again and display it back to the user when they open the app?
 
 {% highlight java %}
 private void previewStoredFirebaseImage() {
