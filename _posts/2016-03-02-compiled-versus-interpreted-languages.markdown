@@ -10,4 +10,8 @@ This view of the world doesn't actually hold up to intense scrutiny, as these ca
 
 What about hardware description languages like Verilog? Our target is no longer a CPU, but an FPGA (Field Programmable Gate Array), which is essentially a chip with configurable digital logic gates. Rather than compile to machine code, we compile to a hardware layout (via some intruction set that the FPGA understands in order to configure itself).
 
-So in Java-land we are compiling (to bytecode), then interpreting the bytecode with our VM, which actually compiles into several intermediate formats before generating machine code. Which we then interpret with our physical CPU. 
+So in Java-land we are compiling (to bytecode), then interpreting the bytecode with our VM, which actually compiles into several intermediate formats before generating machine code. Which we then interpret with our physical CPU.
+
+At least we can say that our code is either statically compiled or dynamically compiled, right? For C, we run our compiler and get some output, and that is what gets run. For Java we do our bytecode compilation, and then some combination of compilation and interpreting stages will end up generating machine code or running statically compiled code that interprets Java code.
+
+This is basically true until we get to the CPU level, where instructions are swapped around (out-of-order execution) to account for data load times from memory, or executed where they weren't meant to be, because it could be quicker to get the results of both sides of an if-statement while we wait for the condition to be determined. Basically my point is that you have no control over what happens to your code, so give up. We all die alone.
