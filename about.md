@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Peter is a software engineer in Canberra, he just finished his research project into high performance garbage collection in PHP. 
+Peter is a software engineer at Google in Munich, working on the V8 JavaScript engine.
 
-Contact him about contract work through email, or get in touch to talk about projects.
+His opinions are flammable, likely unsafe for human consumption, and not representative of his employer.
