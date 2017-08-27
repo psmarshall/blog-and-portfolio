@@ -7,7 +7,7 @@ title: Project Portfolio
   <ul id="projects" class="list-no-style">
     {% for project in page.projects %}
       <li class="project span5">
-        <a href="/portfolio/{{ project[0] }}">
+        <a href="/portfolio/{{ project[0] }}/">
           <h4>{{ project[1].short }}</h4>
 
           {% if project[1].image %}
