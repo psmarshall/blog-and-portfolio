@@ -4,7 +4,7 @@ email: p.s.marshall0@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Peter Marshall lives in Munich and makes JavaScript VMs, apps and other fun
   things. He studied Software Engineering and when he grows up, he wants
-  to be a software.
+  to be a software engineer.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pmarshall.me" # the base hostname & protocol for your site
 github_username:    psmarshall
